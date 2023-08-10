@@ -12,11 +12,13 @@ OCR systems typically consist of two components: hardware and software. The hard
 
 The hierarchy of optical character recognition (OCR) refers to the different levels of abstraction at which OCR systems operate. The different levels are:
 
-* **Preprocessing:** This is the first level, and it involves preparing the image of the text for further processing. This may involve tasks such as removing noise, adjusting contrast, and binarizing the image.
-* **Segmentation:** This is the second level, and it involves dividing the image into individual characters or words. This is often done using a combination of edge detection and clustering algorithms.
-* **Feature extraction:** This is the third level, and it involves extracting features from each character or word. These features may be based on the shape of the characters, the grayscale values of the pixels, or the statistical distribution of the pixels.
-* **Character recognition:** This is the fourth level, and it involves identifying the characters or words in the image based on the extracted features. This may be done using a variety of techniques, such as template matching, neural networks, or support vector machines.
-* **Post-processing:** This is the fifth level, and it involves correcting any errors that were made in the previous levels. This may involve tasks such as removing noise, correcting segmentation errors, and correcting character recognition errors.
+* **Image Acquisition:**  This is the first step, and It is the collection of images for conversion into printed format from other sources.
+* **Preprocessing:** This is the second step, and it involves preparing the image of the text for further processing. This may involve tasks such as removing noise, adjusting contrast, and binarizing the image.
+* **Character Segmentation:** This is the third step, and it involves dividing the image into individual characters or words. This is often done using a combination of edge detection and clustering algorithms.
+* **Feature extraction:** This is the fourth step, and it involves extracting features from each character or word. These features may be based on the shape of the characters, the grayscale values of the pixels, or the statistical distribution of the pixels.
+* **Character classification:** This is the fifth step, and it helps the segmented characters to arrange them into different categories and classes.
+* **Character recognition:** This is the sixth step, and it involves identifying the characters or words in the image based on the extracted features. This may be done using a variety of techniques, such as template matching, neural networks, or support vector machines.
+* **Post-processing:** This is the final step, and it involves correcting any errors that were made in the previous levels. This may involve tasks such as removing noise, correcting segmentation errors, and correcting character recognition errors.
 
 The hierarchy of OCR is important because it allows OCR systems to be modular and scalable. Each level of the hierarchy can be implemented using different techniques, and the levels can be combined in different ways to achieve different levels of accuracy and performance.
 

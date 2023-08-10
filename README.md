@@ -1,7 +1,7 @@
 # PHOENIX
 Optical character recognition using tessaract and javascript
 
-Optical character recognition (OCR) is a technology that converts images of text into machine-encoded text, whether from a scanned document, a photo of a document, a scene photo or from subtitle text superimposed on an image. OCR is used in a wide variety of applications, including:
+PHOENIX (OCR) is an optical chatacter recognition that converts images of text into machine-encoded text, whether from a scanned document, a photo of a document, a scene photo or from subtitle text superimposed on an image. OCR is used in a wide variety of applications, including:
 
 * Document digitization: OCR can be used to digitize old documents, such as books, newspapers, and magazines. This makes it possible to search and edit the documents electronically, and to make them accessible to people with disabilities.
 * Data entry: OCR can be used to automate data entry tasks, such as entering customer information or product data into a database. This can save businesses time and money.
@@ -10,7 +10,7 @@ Optical character recognition (OCR) is a technology that converts images of text
 
 OCR systems typically consist of two components: hardware and software. The hardware component is an optical scanner or a specialized circuit board that captures the image of the text. The software component then analyzes the image and converts it into machine-encoded text.
 
-The hierarchy of optical character recognition (OCR) refers to the different levels of abstraction at which OCR systems operate. The different levels are:
+The hierarchy of PHOENIX(OCR) refers to the different levels of abstraction at which OCR systems operate. The different levels are:
 
 * **Image Acquisition:**  This is the first step, and It is the collection of images for conversion into printed format from other sources.
 * **Preprocessing:** This is the second step, and it involves preparing the image of the text for further processing. This may involve tasks such as removing noise, adjusting contrast, and binarizing the image.
@@ -21,8 +21,6 @@ The hierarchy of optical character recognition (OCR) refers to the different lev
 * **Post-processing:** This is the final step, and it involves correcting any errors that were made in the previous levels. This may involve tasks such as removing noise, correcting segmentation errors, and correcting character recognition errors.
 
 The hierarchy of OCR is important because it allows OCR systems to be modular and scalable. Each level of the hierarchy can be implemented using different techniques, and the levels can be combined in different ways to achieve different levels of accuracy and performance.
-
-In recent years, there has been a trend towards using deep learning techniques for OCR. Deep learning techniques have been shown to be very effective for character recognition, and they can be used to achieve high accuracy even for challenging tasks such as handwritten OCR.
 
 The hierarchy of OCR is still evolving, and there is ongoing research into new techniques for each level of the hierarchy. As OCR technology continues to develop, it is likely that the hierarchy will become more complex and sophisticated.
 
